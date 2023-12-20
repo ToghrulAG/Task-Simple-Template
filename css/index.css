@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body nav {
+  width: 100%;
+}
+body nav .navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+body nav .navContainer .navLogo {
+  width: 50%;
+}
+body nav .navContainer .navButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+body nav .navContainer .navButtons ul {
+  display: flex;
+  gap: 25px;
+}
+body nav .navContainer .navButtons ul li a {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+body header {
+  background-color: aqua;
+  height: 86vh;
+}
+body header section {
+  height: 100%;
+  justify-content: center;
+}
+body header section .headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #212529;
+}
+body header section .headerContainer .contentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+body header section .headerContainer .contentBox .headerInfo h1 {
+  font-size: 40px;
+}
+body header section .headerContainer .contentBox .headerInfo p {
+  padding-top: 10px;
+}
+body header section .headerContainer .contentBox .headerButtons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding-top: 20px;
+}
+body header section .headerContainer .contentBox .headerButtons button:nth-of-type(1) {
+  width: 28%;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: #0B5ED7;
+  font-size: 16px;
+  cursor: pointer;
+}
+body header section .headerContainer .contentBox .headerButtons button:nth-of-type(2) {
+  color: white;
+  width: 28%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 1;
+  background-color: transparent;
+  cursor: pointer;
+}
+body main section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+body main section .mainSecContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  justify-content: space-between;
+  height: 40vh;
+}
+body main section .mainSecContainer .mainSecContent {
+  padding-left: 12px;
+}
+body main section .mainSecContainer a {
+  text-decoration: none;
+  color: rgb(83, 137, 255);
+  padding-left: 12px;
+}/*# sourceMappingURL=index.css.map */
